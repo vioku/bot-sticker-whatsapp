@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vioku/bot-sticker-whatsapp.git"
+  },
+  "author": "Vioku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vioku/bot-sticker-whatsapp/issues"
+  },
+  "homepage": "https://github.com/vioku/bot-sticker-whatsapp#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
