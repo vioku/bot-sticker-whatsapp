@@ -14,8 +14,8 @@ client.on("ready", () => {
 });
 
 client.on("message", async (msg) => {
-  if (msg.body == "!ping") {
-    msg.reply("pong");
+  if (msg.body.toLowerCase() == "hi") {
+    msg.reply("Hi, i'm online now 👋");
   } else if (msg.body === "!stiker" || (msg.body === "!sticker" && msg.hasMedia)) {
     const attachmentData = await msg.downloadMedia();
     client.sendMessage(msg.from, attachmentData, { sendMediaAsSticker: true, stickerAuthor: "Vioku" });
