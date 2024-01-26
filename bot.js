@@ -18,7 +18,7 @@ client.on("message", async (msg) => {
     msg.reply("pong");
   } else if (msg.body === "!stiker" || (msg.body === "!sticker" && msg.hasMedia)) {
     const attachmentData = await msg.downloadMedia();
-    client.sendMessage(msg.from, attachmentData, { sendMediaAsSticker: true, stickerAuthor: "VIO" });
+    client.sendMessage(msg.from, attachmentData, { sendMediaAsSticker: true, stickerAuthor: "Vioku" });
   }
 });
 
